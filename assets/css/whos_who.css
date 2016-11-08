@@ -1,3 +1,7 @@
+.whos-who-widget {
+  list-style-type: none;
+}
+
 .whos-who-widget-item {
   position: relative;
   border-bottom: 1px solid #979797;
@@ -17,6 +21,7 @@
 }
 .whos-who-widget-item .heading {
   margin-bottom: 3px;
+  margin-top: 3px;
 }
 .whos-who-widget-item .caption {
   margin-bottom: 16px;
