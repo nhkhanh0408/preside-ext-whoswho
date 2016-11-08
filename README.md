@@ -13,7 +13,7 @@ From the Preside CMS developer console (using the back tick ` key) reload the ap
 ### Enabling the extension
 Once the files are installed, enable the extension by opening up the Preside CMS developer console and entering:
 
-	extension enable preside-ext-twitter-timeline
+	extension enable preside-ext-whoswho
 	reload all
 
 #### Usage
