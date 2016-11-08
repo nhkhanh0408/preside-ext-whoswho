@@ -1,6 +1,5 @@
 ( function( $ ){	
 	// Text content toggler
-
 	$('.ext.text-toggler').append('<a href="#" class="text-toggler-link js-toggle-content">Show <span class="more-label">more</span><span class="less-label">less</span></a>');
 
 	$('.ext.text-toggler').each(function() {

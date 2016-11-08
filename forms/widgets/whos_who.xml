@@ -3,7 +3,8 @@
 	<tab>
 		<fieldset>
 			<field name="who"      control="objectpicker" object="whos_who"          quickadd="true" quickedit="true" multiple="true" sortable="true" />
-			<field name="category" control="objectpicker" object="whos_who_category" quickadd="true" quickedit="true" multiple="true" sortable="true" />			
+			<field name="category" control="objectpicker" object="whos_who_category" quickadd="true" quickedit="true" multiple="true" sortable="true" />
+			<field name="default_collapsible" control="yesNoSwitch" default="false" />
 		</fieldset>
 	</tab>
 </form>
