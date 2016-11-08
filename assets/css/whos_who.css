@@ -1,0 +1,38 @@
+.whos-who-widget-item {
+  position: relative;
+  border-bottom: 1px solid #979797;
+  padding: 0 0 30px 100px;
+  margin-bottom: 24px;
+}
+.whos-who-widget-item:before {
+  display: none;
+}
+.whos-who-widget-item .whos-who-image {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+.whos-who-widget-item .heading {
+  margin-bottom: 3px;
+}
+.whos-who-widget-item .caption {
+  margin-bottom: 16px;
+}
+.text-toggler-content {
+  display: none;
+}
+.text-toggler-link {
+  font-weight: bold;
+}
+.text-toggler-link .less-label {
+  display: none;
+}
+.text-toggler.is-content-shown .text-toggler-link .less-label {
+  display: inline;
+}
+.text-toggler.is-content-shown .text-toggler-link .more-label {
+  display: none;
+}
