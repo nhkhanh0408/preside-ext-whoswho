@@ -1,6 +1,5 @@
 <cfparam name="args.who"      default="" />
 <cfparam name="args.category" default="" />
-<cfparam name="args.category" default="" />
 <cfparam name="args.default_collapsible" default="" />
 
 <cfscript>
