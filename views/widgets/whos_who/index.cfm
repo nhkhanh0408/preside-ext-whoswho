@@ -1,9 +1,16 @@
-<cfparam name="args.who"      />
-<cfparam name="args.category" />
+<cfparam name="args.who"      default="" />
+<cfparam name="args.category" default="" />
+<cfparam name="args.category" default="" />
+<cfparam name="args.default_collapsible" default="" />
 
 <cfscript>
 	event.include( "whoswho-css" );
 	event.include( "whoswho-js" );
+
+	if( args.default_collapsible == 1 ){
+		event.include( "collapsible-css" );
+		event.include( "collapsible-js" );
+	}
 </cfscript>
 
 <cfoutput>

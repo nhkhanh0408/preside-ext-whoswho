@@ -1,0 +1,84 @@
+/*****************************************************************
+	Widget - Collapsibles
+*****************************************************************/
+.collapsible {
+  margin-bottom: 30px;
+}
+.collapsible-item {
+  margin-bottom: 20px;
+}
+.collapsible-item > .collapsible-item-header {
+  margin: 0;
+  display: block;
+  background: #f6f5f1;
+}
+.collapsible-item > .collapsible-item-header > a {
+  position: relative;
+  display: block;
+  padding: 27px 50px 27px 30px;
+  text-decoration: none;
+}
+.collapsible-item > .collapsible-item-header > a:before {
+  content: "\e9ff";
+  font-size: 20px;
+  font-size: 2rem;
+  color: #9d9c8e;
+  margin-top: -10px;
+  position: absolute;
+  right: 28px;
+  top: 50%;
+}
+.collapsible-item.is-open > .collapsible-item-header > a:before {
+  content: "\e9fe";
+  right: 28px;
+}
+.collapsible-item-content {
+  display: none;
+  padding: 0px 50px 20px 30px;
+  background: #f6f5f1;
+}
+.collapsible.accordion .collapsible-item {
+  position: relative;
+  margin-bottom: 0;
+  border-bottom: 1px solid #b7bdba;
+}
+.collapsible.accordion .collapsible-item > .collapsible-item-header {
+  background: none;
+}
+.collapsible.accordion .collapsible-item > .collapsible-item-header > a:before {
+  display: none;
+}
+.collapsible.accordion .collapsible-item:before {
+  content: "\e9fa";
+  font-size: 26px;
+  font-size: 2.6rem;
+  color: #9d9c8e;
+  cursor: pointer;
+  position: absolute;
+  right: 28px;
+  bottom: 32px;
+}
+.collapsible.accordion .collapsible-item.is-open:before {
+  content: "\e9fb";
+}
+.collapsible.accordion .collapsible-item .collapsible-item-content {
+  background: none;
+  padding-right: 60px;
+}
+.collapsible.arrow-on-right .collapsible-item > .collapsible-item-header a {
+  padding: 25px 45px 20px 20px;
+}
+.collapsible.arrow-on-right .collapsible-item > .collapsible-item-header a:before {
+  display: none !important;
+}
+.collapsible.arrow-on-right .collapsible-item > .collapsible-item-header a:after {
+  content: ".";
+  position: absolute;
+  right: 29px;
+  top: 50%;
+  margin-top: -9px;
+}
+.collapsible.arrow-on-right .collapsible-item.is-open > .collapsible-item-header a:after {
+  content: ",";
+  margin-top: -6px;
+}
