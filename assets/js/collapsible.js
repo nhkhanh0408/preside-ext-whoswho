@@ -235,4 +235,4 @@ var whoiswhoExt = function() {
 
 	} );
 
-} )( presideJQuery );
+} )( JQuery );

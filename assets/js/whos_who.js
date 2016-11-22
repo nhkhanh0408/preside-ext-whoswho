@@ -27,4 +27,4 @@
 			textTogglerContent.slideDown(300);
 		}
 	});
-} )( presideJQuery );
+} )( JQuery );
